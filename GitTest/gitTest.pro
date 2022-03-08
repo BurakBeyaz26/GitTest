@@ -10,6 +10,8 @@ CONFIG -= app_bundle
 SOURCES += \
         main.cpp \
         mainclass.cpp \
+        mergeclass1.cpp \
+        mergeclass2.cpp \
         testclass.cpp \
         workclass.cpp
 
@@ -20,5 +22,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     mainclass.h \
+    mergeclass1.h \
+    mergeclass2.h \
     testclass.h \
     workclass.h
