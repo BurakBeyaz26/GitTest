@@ -1,14 +1,12 @@
 #include <QCoreApplication>
-#include <iostream>
-#include <string>
-
-using namespace std;
+#include "testclass.h"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    cout << "hello git!" << endl;
+    TestClass testclass;
+    testclass.helloGit();
 
     return a.exec();
 }
